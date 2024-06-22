@@ -27,6 +27,7 @@
   --ifm-color-primary-lighter: #b592ea; /* Púrpura más claro menos saturado */
   --ifm-color-primary-lightest: #c4a4f1; /* Púrpura muy claro menos saturado */
   --ifm-color-success-dark:#734ebd;
+  --ifm-blockquote-border-color: #8a65d2;
 }
 
 .alert {
