@@ -6,7 +6,7 @@ image: /img/portadas/cocos.png
 hide_table_of_contents: false
 ---
 
-Mejorando la User Experience de Cocos Capital con 100 lines de Vanilla Js.
+Cómo mejorar la User Experience de Cocos Capital con 100 lineas de Vanilla Js.
 
 <!-- truncate -->
 
