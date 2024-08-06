@@ -23,13 +23,18 @@
   --ifm-color-primary-dark: #8362c3; /* Púrpura oscuro menos saturado */
   --ifm-color-primary-darker: #7354ab; /* Púrpura más oscuro menos saturado */
   --ifm-color-primary-darkest: #634693; /* Púrpura muy oscuro menos saturado */
-  --ifm-color-primary-light: #a680e3; /* Púrpura claro menos saturado */
-  --ifm-color-primary-lighter: #b592ea; /* Púrpura más claro menos saturado */
-  --ifm-color-primary-lightest: #c4a4f1; /* Púrpura muy claro menos saturado */
+  --ifm-color-primary-light: #a680e3; 
+  --ifm-color-primary-lighter: #b592ea; 
+  --ifm-color-primary-lightest: #c4a4f1; 
   --ifm-color-success-dark:#734ebd;
   --ifm-blockquote-border-color: #8a65d2;
+  --ifm-color-info-dark:#734ebd;
 }
 
-.alert {
+[data-theme='dark'] .alert {
   background-color:#5325a96a
+}
+
+.navbar__brand {
+  padding-left: 1em;
 }
