@@ -10,8 +10,8 @@ import rehypeKatex from "rehype-katex";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Yago Pajariño",
-  favicon: "img/avatar.png",
+  title: "YPB",
+  favicon: "img/ape-ico.png",
   stylesheets: [
     {
       href: "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
@@ -68,13 +68,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: "img/avatar.jpg",
+      image: "img/ape.jpg",
       navbar: {
         title: "YPB",
-        logo: {
-          alt: "My Site Logo",
-          src: "img/avatar.png",
-        },
+        // logo: {
+        //   alt: "My Site Logo",
+        //   src: "img/ape.png",
+        // },
         items: [
           {
             href: "https://github.com/yagopajarino/blog",
