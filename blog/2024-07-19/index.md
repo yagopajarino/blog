@@ -71,7 +71,7 @@ En toda ZK existen dos tipos de personas: un _prover_ aquel que quiere probar al
 
 ### Propiedades
 
-Mi idea no era meterme en fundamentalismos, pero es obligatorio nombrar a las tres propiedades que tiene que cumplir una ZK proof:
+Mi idea no era meterme en teoría, pero es obligatorio nombrar las tres propiedades que tiene que cumplir una ZK proof:
 
 1. **Completeness**: Si un statement es verdadero, el prover debe poder convencer al verifier de que el statement es verdadero. Muchas veces implica que la probabilidad de dar algo como verdadero siendo falso sea muy baja.
 2. **Soundness**: Si un statement es falso, no existe un prover engañoso que pueda convencer al verifier de que la declaración es verdadera, de nuevo con un margen de error muy pequeño.
@@ -82,3 +82,58 @@ Si querés saber más desde lo teórico fijate [este blog post](https://blog.cry
 
 Te recomiento que intentes entender cómo se prueba la última propiedad.
 :::
+
+### Interactive vs non-interactive
+
+Esta es una categorización que me parece interesante. Si pudiste ver los ejemplos de ZK que dejé arriba, seguro viste el de La Cueva de Alibaba. Seguro viste que la idea de la prueba es ir preguntando varias veces lo mismo como para ver si en alguna de esas preguntas el prover se da una respuesta falsa y podemos determinar que el statement es falso.
+
+Esa idea se repite varias veces en un montón de ejemplos: imaginate que alguien te dice que es un crack adivinando cosas, como el clima, seguramente la mejor forma de probarlo sea preguntandole todos los días ¿Cómo va a estar el clima mañana?. Mientras más predicciones se cumplan, mayor será tu confianza en que esa persona realmente predice como va a estar el clima.
+
+En ZK es lo mismo, a medida que repetimos experimentos y el prover siempre responde satisfactoriamente, vamos generando confianza en que sabe de lo que está hablando, esas son las **interactive proofs**.
+
+Ahora surge el problema con el que siempre nos encontramos los programadores, se puede mejorar/eficientizar eso? Tener que repetir muchas veces un experimento para convencernos de que algo es cierto no parece muy económico (no lo es).
+
+De allí surge la necesidad de las **non-interactive** proofs. En estas, por medio de un único experimento nos podemos convencer de que el statement es cierto.
+
+Acá otra vez un ejemplo canónico que a mi me sorprendió una banda cuando lo leí: [Zero-Knowledge Proof For Sudoku Using Standard Playing Cards](https://www.wisdom.weizmann.ac.il/~naor/PAPERS/SUDOKU_DEMO/). Dale, anda a leerlo y después volvé.
+
+Este ejemplo es _non-interactive_ porque el prover y el verifier solo se intercambian un mensaje, que alcanza para probar que el tablero del sudoku está completo.
+
+:::info
+
+- Interactive -> varios intercambios de mensajes entre prover y verifier
+- Non-interactive -> con un solo mensaje alcanza para hacer la prueba
+  :::
+
+## Casos de uso
+
+Hay un post muy bueno de casos de uso de ZK proofs en Ethereum: [Use-cases for zero-knowledge proofs](https://ethereum.org/en/zero-knowledge-proofs/#use-cases-for-zero-knowledge-proofs) así que como el post se me está alargando bastante voy a dejar que lo revises por tu cuenta.
+
+Además en el último tiempo se estuvo trabajando en el desarrollo de [zk-rollups](https://ethereum.org/es/developers/docs/scaling/zk-rollups/) que permiten usar ZK para validar las transacciones de una [Layer 2](https://ethereum.org/en/layer-2/), permitiendo escalar Ethereum.
+
+Pero más aún, Aztec está desarrollando lo que llaman [ZK-ZK-Rollup](https://azt3c-st.webflow.io/blog/aztecs-zk-zk-rollup-looking-behind-the-cryptocurtain) (sostienen que las actuales zk rollups no son tan zk), permitiendo ocultar todos los inputs y outputs de una transacción en la blockchain. Yo me quedé así cuando lo escuché 🤯
+
+Si querés saber más, mirate [esta charla de Santiago Palladino](https://youtu.be/f1AD_pbBRCM?t=6664)
+
+## ¿Cómo me meto en este mundo?
+
+En principio tenés que saber algunas cosas matemáticas bastante simples. Yo te voy a tirar algunos temas como para que bayas googleando
+
+1. Números primos
+2. Factorización de enteros
+3. Aritmética modular
+4. Grupos y generadores
+5. Algo de programación general
+
+Para la parte de programación, te recomiendo como siempre el [CS50 de Harvard](https://www.edx.org/cs50) que es un poco largo pero vale la pena 100%.
+
+Despues de eso, lenguajes de programación hay muchos, pero recomiendo que sepas algo de Javascript: [este curso de freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) puede ser una buena opción.
+
+En cuanto a lo matemático, si bien es un poco más dificil de aprender online, te puedo recomendar dos cosas buenas que nos dejo la pandemia:
+
+1. El fasciculo 9, material de la materia Álgebra I de las carreras de exactas de la UBA. [Acá está](https://cms.dm.uba.ar/depto/public/grado/fascgrado9.pdf)
+2. [Este canal de youtube](https://www.youtube.com/@AlgebraIC-gu7oc) que tiene todas las clases del primer cuatrimestre 2021
+
+Creo que con el capítulo 3 y 4 del fascículo 9 debería ser sufuciente base algebráica, pero si tenés tiempo y ganas estudialo todo que está buenísimo.
+
+Salu2.
