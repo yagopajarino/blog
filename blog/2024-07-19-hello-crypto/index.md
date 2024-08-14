@@ -1,5 +1,5 @@
 ---
-title: Week 0 - PSE Core Program
+title: Criptografía | Hello Cryptography
 authors: yago
 tags: [pse, zk, cryptography]
 ---
