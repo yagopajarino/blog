@@ -14,6 +14,10 @@ Hace un mes aprox me confirmaban que iba a ser parte del [PSE Core Program](http
 
 La semana que viene arranca el PSE Core Program y esta semana (week 0) nos introducimos al mundo de las ZK proofs y asentamos algunas bases. Mi idea es ir presentando algunos temas y dejando algunas reflexiones semana a semana. No solo me sirve a mi para asentar conocimientos, sino también puede servir para aquellos que estén interesados en el tema.
 
+:::info
+Mi idea es hacer una serie de post de criptografía con temas que me interesen. Los vas a poder identificar por el prefijo **Criptografía |** en el título.
+:::
+
 A veces pienso que está todo creado, que ya nada puede ser inventado, y luego aparecen cosas como las zk proofs que te dejan pensando "cómo algo así puede ser posible?"
 
 Algo parecido me pasó la primera vez que escuché sobre bitcoin y peor aún cuando leí el [paper](https://bitcoin.org/bitcoin.pdf).
