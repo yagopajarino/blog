@@ -13,8 +13,9 @@
             <link>https://blog.yagopajarino.ar/2024/07/26/encriptando-cosas</link>
             <guid>https://blog.yagopajarino.ar/2024/07/26/encriptando-cosas</guid>
             <pubDate>Fri, 26 Jul 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Introducción a criptografía]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introducción-a-criptografía">Introducción a criptografía<a class="hash-link" aria-label="Direct link to Introducción a criptografía" title="Direct link to Introducción a criptografía" href="https://blog.yagopajarino.ar/2024/07/26/encriptando-cosas#introducci%C3%B3n-a-criptograf%C3%ADa">​</a></h2>
+            <description><![CDATA[Intro a criptografía, con algunos de los algoritmos más famosos y algo de práctica para que te lleves tarea :/]]></description>
+            <content:encoded><![CDATA[<p>Intro a criptografía, con algunos de los algoritmos más famosos y algo de práctica para que te lleves tarea :/</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introducción-a-criptografía">Introducción a criptografía<a class="hash-link" aria-label="Direct link to Introducción a criptografía" title="Direct link to Introducción a criptografía" href="https://blog.yagopajarino.ar/2024/07/26/encriptando-cosas#introducci%C3%B3n-a-criptograf%C3%ADa">​</a></h2>
 <p>Semana uno del core program. Estuvimos viendo una banda de conceptos critográficos, poca práctica, mucha teoría. Bien como para arrancar.</p>
 <p>No se bien como organizar este post porque hay un montón de temas para meter, igual voy a hacer una selección de los temas que más me llamaron la atención.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="el-problema-del-eavesdropper">El problema del eavesdropper<a class="hash-link" aria-label="Direct link to El problema del eavesdropper" title="Direct link to El problema del eavesdropper" href="https://blog.yagopajarino.ar/2024/07/26/encriptando-cosas#el-problema-del-eavesdropper">​</a></h2>
