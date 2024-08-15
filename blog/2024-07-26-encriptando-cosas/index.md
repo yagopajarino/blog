@@ -4,6 +4,10 @@ authors: yago
 tags: [cryptography]
 ---
 
+Intro a criptografía, con algunos de los algoritmos más famosos y algo de práctica para que te lleves tarea :/
+
+<!-- truncate -->
+
 ## Introducción a criptografía
 
 Semana uno del core program. Estuvimos viendo una banda de conceptos critográficos, poca práctica, mucha teoría. Bien como para arrancar.
