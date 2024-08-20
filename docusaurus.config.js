@@ -69,7 +69,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: "img/ape.jpg",
+      image: "img/ape.png",
       navbar: {
         title: "YPB",
         // logo: {
