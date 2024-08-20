@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[1459],{6004:a=>{a.exports=JSON.parse('{"tag":{"label":"gobierno","permalink":"/tags/gobierno","allTagsPath":"/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/tags/gobierno","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
