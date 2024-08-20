@@ -14,6 +14,8 @@ Simplemente encontré este tweet que desbloqueó algunos recuerdos y merecen un 
 
 ![image](tweet.png)
 
+[Link al tweet](https://x.com/Santiagomigo/status/1825941904724472214)
+
 Hace un par de meses me independicé de la casa de mis viejos, comenzando toda la movida de vivir solo, particularmente la relacionada a las compras. Una de las primeras decisiones que tuve que tomar fue: a qué supermercado ir, cada cuánto ir (todos los días, una vez por semana, una vez al mes, etc), cómo pagar (descuentos y promos).
 
 Y claro, los principios de economía que alguna vez se vieron en la facultad se comienzan a sentir en la realidad: quería ir al supermercado que me permita comprar todos los productos que quería al menor costo posible.
