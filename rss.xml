@@ -4,10 +4,32 @@
         <title>YPB Blog</title>
         <link>https://blog.yagopajarino.ar</link>
         <description>YPB Blog</description>
-        <lastBuildDate>Tue, 20 Aug 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 08 Oct 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Tlön, Uqbar, ChatGPT]]></title>
+            <link>https://blog.yagopajarino.ar/2024/10/08/tlon-uqbar-gpt</link>
+            <guid>https://blog.yagopajarino.ar/2024/10/08/tlon-uqbar-gpt</guid>
+            <pubDate>Tue, 08 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA["... ya en las memorias un pasado ficticio ocupa el sitio de otro, del que nada sabemos con certidumbre -ni siquiera que es falso." Jorge Luis Borges]]></description>
+            <content:encoded><![CDATA[<p><em>"... ya en las memorias un pasado ficticio ocupa el sitio de otro, del que nada sabemos con certidumbre -ni siquiera que es falso."</em> <strong>Jorge Luis Borges</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="machine-learning-ops-chatgpt-y-borges">Machine Learning Ops, ChatGPT y Borges<a class="hash-link" aria-label="Direct link to Machine Learning Ops, ChatGPT y Borges" title="Direct link to Machine Learning Ops, ChatGPT y Borges" href="https://blog.yagopajarino.ar/2024/10/08/tlon-uqbar-gpt#machine-learning-ops-chatgpt-y-borges">​</a></h2>
+<p>Hoy tuve uno de esos momentos de conexión de ideas.</p>
+<p>Estaba sentado en la segunda fila del aula 1403 del pabellón 0+infinito de la facultad de exactas de la UBA. Primer día de clase de la materia Machine Learning Ops, optativa del segundo bimestre 2024.</p>
+<p>Entre los temas que se estaban presentando, aparecen los large language models (LLM) que están tan de moda en la actualidad, como chatGPT. En particular, se debatía la precisión de estos modelos, para que sirven, si son "buenos" o no, etc.</p>
+<p>Medio a la pasada se menciona el tema de las <a href="https://es.wikipedia.org/wiki/Alucinaci%C3%B3n_(inteligencia_artificial)" target="_blank" rel="noopener noreferrer">alucinaciones</a> en estos modelos, lo dificil que resulta detectar cuando una IA está inventando cosas y, sobre todo, el esfuerzo que las personas estamos dispuestas a realizar para detectar estos errores.</p>
+<p>Casi de manera instantánea se me vino a la mente el final del cuento de Borges <a href="https://tlon.unal.edu.co/files/tlon_texto.pdf" target="_blank" rel="noopener noreferrer">Tlön, Uqbar, Orbis Tertius</a>, voy a intentar no spoilear por si no lo leíste.</p>
+<p>Vivimos en una sociedad que abre los brazos a la inteligencia artificial sin tener mucha idea de lo que es, como funciona, que problemas tiene, a que peligros nos enfrenta. No soy de las personas fatalistas con la IA, no creo que vaya a destruir a la humanidad.</p>
+<p>Lo que sí creo que puede modificar es la relación del humano con el mundo y con los otros humanos, en particular la sociedad. Hace unas semanas se viralizaron las respuestas de <a href="https://www.theguardian.com/us-news/article/2024/sep/06/amazon-alexa-kamala-harris-support" target="_blank" rel="noopener noreferrer">'Alexa, how should I vote?'</a></p>
+<p>Qué tan lejos estamos de ese mundo en el que aquello que diga la IA sea la verdad absoluta? El mundo en el que unos pocos pueden borrar la historia, o más bien, modificarlas en el conocimiento social.</p>
+<p>Si este razonamiento surgió en mí es porque identifico esos momentos en los que creo casi ciegamente en lo que me dice chatGPT, pero (por ahora) también reconozco los momentos en los que alucina.</p>
+<p>Quizás en 20 años (o 20 meses) estos modelos logren lo que aquella <em>sociedad secreta</em> relatada por Borges logró.</p>]]></content:encoded>
+            <category>ia</category>
+            <category>gpt</category>
+            <category>sociedad</category>
+        </item>
         <item>
             <title><![CDATA[Precios claros]]></title>
             <link>https://blog.yagopajarino.ar/2024/08/20/precios-claros</link>
