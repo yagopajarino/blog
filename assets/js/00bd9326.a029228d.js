@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[441],{7428:a=>{a.exports=JSON.parse('{"tag":{"label":"sociedad","permalink":"/tags/sociedad","allTagsPath":"/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/tags/sociedad","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

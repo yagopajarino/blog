@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[9310],{6153:a=>{a.exports=JSON.parse('{"tag":{"label":"codewars","permalink":"/tags/codewars","allTagsPath":"/tags","count":2,"unlisted":false},"listMetadata":{"permalink":"/tags/codewars","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
