@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[4937],{9797:a=>{a.exports=JSON.parse('{"tag":{"label":"algebra","permalink":"/tags/algebra","allTagsPath":"/tags","count":2,"unlisted":false},"listMetadata":{"permalink":"/tags/algebra","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
